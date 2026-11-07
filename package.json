@@ -1,0 +1,17 @@
+{
+  "name": "vyoma-rp-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --watch --env-file=.env server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "minecraft-server-util": "^5.4.4"
+  }
+}
